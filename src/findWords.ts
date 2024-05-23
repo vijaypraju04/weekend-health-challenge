@@ -38,19 +38,6 @@ const findWords = (inputString: string, dictionary: string[]): string[] => {
     return result
 }
 
-/**
- * {
- *   o: 2,
- *   g: 1,
- *   d: 1 
- * }
- * 
- * {
- *  t: 1
- *  e: 1
- *  a: 1
- * }
- */
 // Test cases
 console.log(findWords("ate", ["ate", "eat", "tea", "dog", "do", "god", "goo", "go", "good"]));
 // Expected output: ["ate", "eat", "tea"]
